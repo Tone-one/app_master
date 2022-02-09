@@ -6,6 +6,7 @@
 # 创建包类
 from bage.base_page import BasePage
 from appium import webdriver
+from bage.main_page import Main
 
 
 class App(BasePage):
