@@ -7,3 +7,4 @@
 class AddMember:
     pass
 
+    def add——

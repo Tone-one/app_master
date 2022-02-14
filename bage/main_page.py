@@ -8,20 +8,21 @@ from bage.base_page import BasePage
 
 class Main(BasePage):
 
-    #   进入消息页面
+    #   切换消息页面
     def goto_message(self):
         pass
 
-    #   进入日程界面
+    #   切换日程界面
     def goto_schedule(self):
         pass
 
-    #   进入文档界面
+    #   切换文档界面
     def goto_document(self):
-        self.find()
+        pass
 
-    #   进入团队界面
-    def goto_team(self):
+    #   切换通讯录界面
+    def goto_contacts(self):
 
         # 进入添加成员界面
         return AddMember(self._driver)
+
