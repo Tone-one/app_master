@@ -23,6 +23,9 @@ class Main(BasePage):
     #   切换通讯录界面
     def goto_contacts(self):
 
+        #   点击通讯录
+        
+
         # 进入添加成员界面
         return AddMember(self._driver)
 

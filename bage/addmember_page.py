@@ -5,6 +5,9 @@
 
 
 class AddMember:
-    pass
-
-    def add——
+    """
+    添加成员
+    """
+    # 添加成员
+    def add_member(self):
+        pass
