@@ -5,6 +5,9 @@
 import logging
 
 import allure
+import pytest
+
+from bage.communication_page import CommunicationPage
 
 
 @allure.title("添加成功功能")

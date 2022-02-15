@@ -2,8 +2,10 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2022/2/9 18:36
 # @Author  : A one
-from bage.addmember_page import AddMember
+from selenium.webdriver.common.by import By
+
 from bage.base_page import BasePage
+from bage.communication_page import CommunicationPage
 
 
 class Main(BasePage):
@@ -24,8 +26,7 @@ class Main(BasePage):
     def goto_contacts(self):
 
         #   点击通讯录
-        
-
+        self.find_click(By.XPATH, '//*[test="通讯录"]')
         # 进入添加成员界面
-        return AddMember(self._driver)
+        return CommunicationPage(self._driver)
 

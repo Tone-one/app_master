@@ -46,8 +46,9 @@ class BasePage:
         self.log_info(f'find and click:{value}')
         return self.find(by, value).click()
 
-    def find_input(self, by, value):
-        self.log_info(f'find and input {value}')
+    def find_input(self, by, value, text):
+        self.log_info(f'find and input {text}')
+        return self.find(by, value).text(text)
 
     def swipe_find(self, text, num=5):
         self.log_info('swipe find :')
